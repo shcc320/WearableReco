@@ -1,0 +1,3 @@
+PAMAP2 range,Complete subjects,Windows,Best model,Best model macro F1
+16g,6,6520,XGBoost,0.8431418520840115
+6g,6,6520,Logistic regression,0.8544327184728115

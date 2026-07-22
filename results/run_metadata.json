@@ -1,0 +1,58 @@
+{
+  "mode": "full",
+  "python": "3.11.5 | packaged by Anaconda, Inc. | (main, Sep 11 2023, 13:26:23) [MSC v.1916 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "requested_device": "cpu",
+  "resolved_device": "cpu",
+  "primary_dataset": "PAMAP2",
+  "external_dataset": "MHEALTH",
+  "primary_subjects": 6,
+  "external_subjects": 10,
+  "primary_windows": 6520,
+  "external_windows": 3290,
+  "feature_count_full": 144,
+  "best_model": "Histogram gradient boosting",
+  "best_sensor_configuration": "Ankle acceleration and gyroscope",
+  "sensitivity_samples_per_scheme": 3000,
+  "config": {
+    "project": {
+      "primary_dataset": "pamap2",
+      "external_dataset": "mhealth",
+      "common_activities": [
+        "lying",
+        "sitting",
+        "standing",
+        "walking",
+        "running",
+        "cycling"
+      ]
+    },
+    "data": {
+      "target_sampling_hz": 50,
+      "window_samples": 128,
+      "step_samples": 64,
+      "cache_features": true
+    },
+    "models": {
+      "random_seed": 47,
+      "n_jobs": -1,
+      "random_forest_estimators": 250,
+      "boosting_estimators": 180
+    },
+    "importance": {
+      "sample_size": 1200,
+      "permutation_repeats": 5
+    },
+    "mcda": {
+      "weights": {
+        "within_macro_f1": 0.35,
+        "external_macro_f1": 0.25,
+        "stability_score": 0.15,
+        "inference_efficiency": 0.1,
+        "wearability_score": 0.15
+      },
+      "sensitivity_samples": 3000,
+      "concentrated_dirichlet_scale": 80
+    }
+  }
+}

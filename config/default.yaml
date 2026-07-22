@@ -1,0 +1,30 @@
+project:
+  primary_dataset: pamap2
+  external_dataset: mhealth
+  common_activities: [lying, sitting, standing, walking, running, cycling]
+
+data:
+  target_sampling_hz: 50
+  window_samples: 128
+  step_samples: 64
+  cache_features: true
+
+models:
+  random_seed: 47
+  n_jobs: -1
+  random_forest_estimators: 250
+  boosting_estimators: 180
+
+importance:
+  sample_size: 1200
+  permutation_repeats: 5
+
+mcda:
+  weights:
+    within_macro_f1: 0.35
+    external_macro_f1: 0.25
+    stability_score: 0.15
+    inference_efficiency: 0.10
+    wearability_score: 0.15
+  sensitivity_samples: 3000
+  concentrated_dirichlet_scale: 80

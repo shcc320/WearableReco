@@ -1,0 +1,38 @@
+project:
+  activities: [lying, sitting, standing, walking, running, cycling]
+
+data:
+  target_sampling_hz: 50
+  window_samples: 128
+  step_samples: 64
+  preferred_pamap2_range: auto
+
+models:
+  random_seed: 47
+  n_jobs: -1
+  random_forest_estimators: 250
+  boosting_estimators: 180
+
+transfer:
+  protocols:
+    - All features - raw
+    - Magnitude only - raw
+    - Magnitude - domain z-score
+    - Magnitude - CORAL
+  bootstrap_samples: 5000
+  coral_regularization: 0.001
+
+sensitivity:
+  run_five_class: true
+  run_model_benchmark: true
+
+mcda:
+  weights:
+    internal_mean_macro_f1: 0.25
+    bidirectional_transfer_macro_f1: 0.30
+    stability_score: 0.15
+    inference_efficiency: 0.10
+    body_location_score: 0.10
+    channel_score: 0.10
+  sensitivity_samples: 1500
+  concentrated_dirichlet_scale: 80

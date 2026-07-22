@@ -1,0 +1,41 @@
+Direction,Protocol,Entity,Configuration,Model,Subject-mean macro F1,Bootstrap 95% CI low,Bootstrap 95% CI high,Target subjects
+PAMAP2-6g -> MHEALTH,All features - raw,Ankle acceleration,Ankle acceleration,Logistic regression,0.017199920915958185,0.0009945251346092938,0.037917851928192525,10
+PAMAP2-6g -> MHEALTH,All features - raw,Ankle acceleration and gyroscope,Ankle acceleration and gyroscope,Logistic regression,0.005845771144278608,0.0,0.01753731343283582,10
+PAMAP2-6g -> MHEALTH,All features - raw,Chest acceleration,Chest acceleration,Logistic regression,0.060384409465681556,0.055496662740479,0.07010101010101011,10
+PAMAP2-6g -> MHEALTH,All features - raw,Chest and ankle acceleration,Chest and ankle acceleration,Logistic regression,0.17997573810387044,0.1644898045553514,0.1971610759678816,10
+PAMAP2-6g -> MHEALTH,All features - raw,Full common configuration,Full common configuration,Logistic regression,0.05592362515072069,0.053654518365709704,0.05916067992311388,10
+PAMAP2-6g -> MHEALTH,Magnitude - CORAL,Ankle acceleration,Ankle acceleration,Logistic regression,0.5060536563557654,0.46641530504454115,0.5443476956344055,10
+PAMAP2-6g -> MHEALTH,Magnitude - CORAL,Ankle acceleration and gyroscope,Ankle acceleration and gyroscope,Logistic regression,0.4090877709105289,0.36019849812186355,0.4542738617548601,10
+PAMAP2-6g -> MHEALTH,Magnitude - CORAL,Chest acceleration,Chest acceleration,Logistic regression,0.4137073461267867,0.35167175166990267,0.47159807258057745,10
+PAMAP2-6g -> MHEALTH,Magnitude - CORAL,Chest and ankle acceleration,Chest and ankle acceleration,Logistic regression,0.5943150066644691,0.5249696695943964,0.6559318913874765,10
+PAMAP2-6g -> MHEALTH,Magnitude - CORAL,Full common configuration,Full common configuration,Logistic regression,0.41719203471035976,0.3758819193117485,0.4581918823838568,10
+PAMAP2-6g -> MHEALTH,Magnitude - domain z-score,Ankle acceleration,Ankle acceleration,Logistic regression,0.5247422892390942,0.48292841070295467,0.5628339962597886,10
+PAMAP2-6g -> MHEALTH,Magnitude - domain z-score,Ankle acceleration and gyroscope,Ankle acceleration and gyroscope,Logistic regression,0.31522137043479026,0.25892141029997867,0.3824273481409248,10
+PAMAP2-6g -> MHEALTH,Magnitude - domain z-score,Chest acceleration,Chest acceleration,Logistic regression,0.40030540327912056,0.363204432418523,0.4358757240497158,10
+PAMAP2-6g -> MHEALTH,Magnitude - domain z-score,Chest and ankle acceleration,Chest and ankle acceleration,Logistic regression,0.5724360200590868,0.5320020230348348,0.6184293028283859,10
+PAMAP2-6g -> MHEALTH,Magnitude - domain z-score,Full common configuration,Full common configuration,Logistic regression,0.3056666870203141,0.2339417725315511,0.38280931923107575,10
+PAMAP2-6g -> MHEALTH,Magnitude only - raw,Ankle acceleration,Ankle acceleration,Logistic regression,0.5684512120940183,0.5452002369486698,0.5911522255604672,10
+PAMAP2-6g -> MHEALTH,Magnitude only - raw,Ankle acceleration and gyroscope,Ankle acceleration and gyroscope,Logistic regression,0.1940305906224482,0.1650819872121015,0.22406821081163647,10
+PAMAP2-6g -> MHEALTH,Magnitude only - raw,Chest acceleration,Chest acceleration,Logistic regression,0.4092346248078048,0.39606341885406876,0.4214672246860309,10
+PAMAP2-6g -> MHEALTH,Magnitude only - raw,Chest and ankle acceleration,Chest and ankle acceleration,Logistic regression,0.46957047135958085,0.44621725060047046,0.4906257522453121,10
+PAMAP2-6g -> MHEALTH,Magnitude only - raw,Full common configuration,Full common configuration,Logistic regression,0.20279024032266987,0.15997494240022192,0.24783823250234913,10
+MHEALTH -> PAMAP2-6g,All features - raw,Ankle acceleration,Ankle acceleration,XGBoost,0.4952055885884443,0.4593643847077562,0.5243835583540174,6
+MHEALTH -> PAMAP2-6g,All features - raw,Ankle acceleration and gyroscope,Ankle acceleration and gyroscope,XGBoost,0.43346354232185713,0.3901770477453632,0.4825452310648767,6
+MHEALTH -> PAMAP2-6g,All features - raw,Chest acceleration,Chest acceleration,XGBoost,0.4719817459205184,0.42561612088669626,0.5094863757091058,6
+MHEALTH -> PAMAP2-6g,All features - raw,Chest and ankle acceleration,Chest and ankle acceleration,XGBoost,0.5542793776010005,0.5285392151570008,0.5807885513713694,6
+MHEALTH -> PAMAP2-6g,All features - raw,Full common configuration,Full common configuration,XGBoost,0.49734948419665415,0.4537773904834314,0.5261645711613562,6
+MHEALTH -> PAMAP2-6g,Magnitude - CORAL,Ankle acceleration,Ankle acceleration,XGBoost,0.3649519622095567,0.28893890107380654,0.43682119535960284,6
+MHEALTH -> PAMAP2-6g,Magnitude - CORAL,Ankle acceleration and gyroscope,Ankle acceleration and gyroscope,XGBoost,0.5087443336735634,0.4470178047529343,0.5698129072387971,6
+MHEALTH -> PAMAP2-6g,Magnitude - CORAL,Chest acceleration,Chest acceleration,XGBoost,0.3667442611854841,0.288057652170219,0.44736028408948575,6
+MHEALTH -> PAMAP2-6g,Magnitude - CORAL,Chest and ankle acceleration,Chest and ankle acceleration,XGBoost,0.2710673313680945,0.22683192593879353,0.3143277740134955,6
+MHEALTH -> PAMAP2-6g,Magnitude - CORAL,Full common configuration,Full common configuration,XGBoost,0.613858458443019,0.5890622049928067,0.6432898311899171,6
+MHEALTH -> PAMAP2-6g,Magnitude - domain z-score,Ankle acceleration,Ankle acceleration,XGBoost,0.37526358999344805,0.31571038943512836,0.4277682046988192,6
+MHEALTH -> PAMAP2-6g,Magnitude - domain z-score,Ankle acceleration and gyroscope,Ankle acceleration and gyroscope,XGBoost,0.40571243684601616,0.3322958965296713,0.479128977162361,6
+MHEALTH -> PAMAP2-6g,Magnitude - domain z-score,Chest acceleration,Chest acceleration,XGBoost,0.3780216897020046,0.33457837189220657,0.4235564936981277,6
+MHEALTH -> PAMAP2-6g,Magnitude - domain z-score,Chest and ankle acceleration,Chest and ankle acceleration,XGBoost,0.44059726246013975,0.4053009454492791,0.4725808906920113,6
+MHEALTH -> PAMAP2-6g,Magnitude - domain z-score,Full common configuration,Full common configuration,XGBoost,0.4300341636702323,0.38506769305830596,0.47436482968743876,6
+MHEALTH -> PAMAP2-6g,Magnitude only - raw,Ankle acceleration,Ankle acceleration,XGBoost,0.5261239594883556,0.5098042905340128,0.5416490656222729,6
+MHEALTH -> PAMAP2-6g,Magnitude only - raw,Ankle acceleration and gyroscope,Ankle acceleration and gyroscope,XGBoost,0.5798353459435419,0.5210774602262921,0.6398467659562649,6
+MHEALTH -> PAMAP2-6g,Magnitude only - raw,Chest acceleration,Chest acceleration,XGBoost,0.5801825208821849,0.527547886743619,0.633406519463516,6
+MHEALTH -> PAMAP2-6g,Magnitude only - raw,Chest and ankle acceleration,Chest and ankle acceleration,XGBoost,0.553350312432075,0.5252722955792615,0.5849066078507493,6
+MHEALTH -> PAMAP2-6g,Magnitude only - raw,Full common configuration,Full common configuration,XGBoost,0.590587048674106,0.529622120916772,0.6585487199374781,6

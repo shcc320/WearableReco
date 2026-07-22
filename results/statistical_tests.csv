@@ -1,0 +1,23 @@
+Test,Comparison,Statistic,P value,Adjusted alpha,Significant,Family
+Friedman,Model,1.0666666666666629,0.899524203248716,,False,Model
+Wilcoxon,Histogram gradient boosting vs LightGBM,9.0,0.84375,0.005,False,Model
+Wilcoxon,Histogram gradient boosting vs Logistic regression,10.0,1.0,0.005,False,Model
+Wilcoxon,Histogram gradient boosting vs Random forest,8.0,0.6875,0.005,False,Model
+Wilcoxon,Histogram gradient boosting vs XGBoost,9.0,0.84375,0.005,False,Model
+Wilcoxon,LightGBM vs Logistic regression,10.0,1.0,0.005,False,Model
+Wilcoxon,LightGBM vs Random forest,10.0,1.0,0.005,False,Model
+Wilcoxon,LightGBM vs XGBoost,10.0,1.0,0.005,False,Model
+Wilcoxon,Logistic regression vs Random forest,9.0,0.84375,0.005,False,Model
+Wilcoxon,Logistic regression vs XGBoost,9.0,0.84375,0.005,False,Model
+Wilcoxon,Random forest vs XGBoost,8.0,0.6875,0.005,False,Model
+Friedman,Configuration,7.333333333333329,0.1192871549637014,,False,Sensor configuration
+Wilcoxon,Ankle acceleration vs Ankle acceleration and gyroscope,5.0,0.3125,0.005,False,Sensor configuration
+Wilcoxon,Ankle acceleration vs Chest acceleration,6.0,0.4375,0.005,False,Sensor configuration
+Wilcoxon,Ankle acceleration vs Chest and ankle acceleration,8.0,0.6875,0.005,False,Sensor configuration
+Wilcoxon,Ankle acceleration vs Full common configuration,8.0,0.6875,0.005,False,Sensor configuration
+Wilcoxon,Ankle acceleration and gyroscope vs Chest acceleration,3.0,0.15625,0.005,False,Sensor configuration
+Wilcoxon,Ankle acceleration and gyroscope vs Chest and ankle acceleration,3.0,0.15625,0.005,False,Sensor configuration
+Wilcoxon,Ankle acceleration and gyroscope vs Full common configuration,8.0,0.6875,0.005,False,Sensor configuration
+Wilcoxon,Chest acceleration vs Chest and ankle acceleration,7.0,0.5625,0.005,False,Sensor configuration
+Wilcoxon,Chest acceleration vs Full common configuration,1.0,0.0625,0.005,False,Sensor configuration
+Wilcoxon,Chest and ankle acceleration vs Full common configuration,0.0,0.03125,0.005,False,Sensor configuration

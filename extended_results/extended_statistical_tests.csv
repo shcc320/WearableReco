@@ -1,0 +1,45 @@
+Test,Comparison,Statistic,P value,Adjusted alpha,Significant,Family
+Friedman,Model,4.666666666666671,0.3232398928813497,,False,PAMAP2-6g models
+Wilcoxon,Histogram gradient boosting vs LightGBM,6.0,0.4375,0.005,False,PAMAP2-6g models
+Wilcoxon,Histogram gradient boosting vs Logistic regression,8.0,0.6875,0.005,False,PAMAP2-6g models
+Wilcoxon,Histogram gradient boosting vs Random forest,9.0,0.84375,0.005,False,PAMAP2-6g models
+Wilcoxon,Histogram gradient boosting vs XGBoost,6.0,0.4375,0.005,False,PAMAP2-6g models
+Wilcoxon,LightGBM vs Logistic regression,6.0,0.4375,0.005,False,PAMAP2-6g models
+Wilcoxon,LightGBM vs Random forest,10.0,1.0,0.005,False,PAMAP2-6g models
+Wilcoxon,LightGBM vs XGBoost,5.0,0.3125,0.005,False,PAMAP2-6g models
+Wilcoxon,Logistic regression vs Random forest,9.0,0.84375,0.005,False,PAMAP2-6g models
+Wilcoxon,Logistic regression vs XGBoost,6.0,0.4375,0.005,False,PAMAP2-6g models
+Wilcoxon,Random forest vs XGBoost,10.0,1.0,0.005,False,PAMAP2-6g models
+Friedman,Model,8.758620689655178,0.06742427467216973,,False,MHEALTH models
+Wilcoxon,Histogram gradient boosting vs LightGBM,8.5,0.0546875,0.005,False,MHEALTH models
+Wilcoxon,Histogram gradient boosting vs Logistic regression,25.0,0.828125,0.005,False,MHEALTH models
+Wilcoxon,Histogram gradient boosting vs Random forest,27.0,1.0,0.005,False,MHEALTH models
+Wilcoxon,Histogram gradient boosting vs XGBoost,15.0,0.21875,0.005,False,MHEALTH models
+Wilcoxon,LightGBM vs Logistic regression,10.0,0.08203125,0.005,False,MHEALTH models
+Wilcoxon,LightGBM vs Random forest,15.0,0.21875,0.005,False,MHEALTH models
+Wilcoxon,LightGBM vs XGBoost,7.5,0.04296875,0.005,False,MHEALTH models
+Wilcoxon,Logistic regression vs Random forest,24.5,0.8046875,0.005,False,MHEALTH models
+Wilcoxon,Logistic regression vs XGBoost,25.5,0.86328125,0.005,False,MHEALTH models
+Wilcoxon,Random forest vs XGBoost,25.0,0.84375,0.005,False,MHEALTH models
+Friedman,Configuration,5.733333333333334,0.21996785493825916,,False,PAMAP2-6g sensors
+Wilcoxon,Ankle acceleration vs Ankle acceleration and gyroscope,7.0,0.5625,0.005,False,PAMAP2-6g sensors
+Wilcoxon,Ankle acceleration vs Chest acceleration,4.0,0.21875,0.005,False,PAMAP2-6g sensors
+Wilcoxon,Ankle acceleration vs Chest and ankle acceleration,9.0,0.84375,0.005,False,PAMAP2-6g sensors
+Wilcoxon,Ankle acceleration vs Full common configuration,8.0,0.6875,0.005,False,PAMAP2-6g sensors
+Wilcoxon,Ankle acceleration and gyroscope vs Chest acceleration,5.0,0.3125,0.005,False,PAMAP2-6g sensors
+Wilcoxon,Ankle acceleration and gyroscope vs Chest and ankle acceleration,7.0,0.5625,0.005,False,PAMAP2-6g sensors
+Wilcoxon,Ankle acceleration and gyroscope vs Full common configuration,6.0,0.4375,0.005,False,PAMAP2-6g sensors
+Wilcoxon,Chest acceleration vs Chest and ankle acceleration,4.0,0.21875,0.005,False,PAMAP2-6g sensors
+Wilcoxon,Chest acceleration vs Full common configuration,3.0,0.15625,0.005,False,PAMAP2-6g sensors
+Wilcoxon,Chest and ankle acceleration vs Full common configuration,3.0,0.15625,0.005,False,PAMAP2-6g sensors
+Friedman,Configuration,1.794594594594591,0.7734711567686228,,False,MHEALTH sensors
+Wilcoxon,Ankle acceleration vs Ankle acceleration and gyroscope,24.0,0.76953125,0.005,False,MHEALTH sensors
+Wilcoxon,Ankle acceleration vs Chest acceleration,26.0,0.921875,0.005,False,MHEALTH sensors
+Wilcoxon,Ankle acceleration vs Chest and ankle acceleration,26.0,0.921875,0.005,False,MHEALTH sensors
+Wilcoxon,Ankle acceleration vs Full common configuration,15.5,0.25,0.005,False,MHEALTH sensors
+Wilcoxon,Ankle acceleration and gyroscope vs Chest acceleration,21.5,0.58984375,0.005,False,MHEALTH sensors
+Wilcoxon,Ankle acceleration and gyroscope vs Chest and ankle acceleration,27.0,1.0,0.005,False,MHEALTH sensors
+Wilcoxon,Ankle acceleration and gyroscope vs Full common configuration,21.5,0.58984375,0.005,False,MHEALTH sensors
+Wilcoxon,Chest acceleration vs Chest and ankle acceleration,18.5,0.40234375,0.005,False,MHEALTH sensors
+Wilcoxon,Chest acceleration vs Full common configuration,10.0,0.083984375,0.005,False,MHEALTH sensors
+Wilcoxon,Chest and ankle acceleration vs Full common configuration,13.5,0.125,0.005,False,MHEALTH sensors

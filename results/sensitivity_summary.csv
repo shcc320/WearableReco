@@ -1,0 +1,11 @@
+Scheme,Configuration,Median_rank,Mean_rank,Top1_frequency
+Concentrated,Ankle acceleration,1.0,1.2886666666666666,0.7113333333333334
+Concentrated,Ankle acceleration and gyroscope,3.0,3.015,0.0
+Concentrated,Chest acceleration,1.0,1.157,0.843
+Concentrated,Chest and ankle acceleration,4.0,3.7003333333333335,0.0
+Concentrated,Full common configuration,5.0,4.9736666666666665,0.0
+Uniform,Ankle acceleration,2.0,1.6246666666666667,0.377
+Uniform,Ankle acceleration and gyroscope,3.0,3.517,0.0003333333333333333
+Uniform,Chest acceleration,1.0,1.2623333333333333,0.7626666666666667
+Uniform,Chest and ankle acceleration,4.0,3.616,0.0
+Uniform,Full common configuration,5.0,4.481333333333334,0.0

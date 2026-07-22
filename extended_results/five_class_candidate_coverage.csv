@@ -1,0 +1,7 @@
+Dropped activity,Activities,Complete subjects,Windows
+running,lying; sitting; standing; walking; cycling,7,6754
+sitting,lying; standing; walking; running; cycling,6,5506
+cycling,lying; sitting; standing; walking; running,6,5418
+standing,lying; sitting; walking; running; cycling,6,5399
+lying,sitting; standing; walking; running; cycling,6,5376
+walking,lying; sitting; standing; running; cycling,6,5140

@@ -1,0 +1,13 @@
+{
+  "activities": [
+    "lying",
+    "sitting",
+    "standing",
+    "walking",
+    "cycling"
+  ],
+  "primary_subjects": 7,
+  "external_subjects": 10,
+  "primary_windows": 6754,
+  "external_windows": 2350
+}

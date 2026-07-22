@@ -1,0 +1,3 @@
+Direction,Protocol,Configuration,Model,Macro F1
+PAMAP2-6g -> MHEALTH,Magnitude - CORAL,Chest and ankle acceleration,Logistic regression,0.6107501811371608
+MHEALTH -> PAMAP2-6g,Magnitude - CORAL,Full common configuration,XGBoost,0.6175752257805506
